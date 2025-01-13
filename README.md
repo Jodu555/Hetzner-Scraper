@@ -1,6 +1,19 @@
-# Hetzner-Scraper
-<<<<<<< HEAD
+# Hetzner Scraper
 
-=======
->>>>>>> a4e8dd43a4fd88936329e31dfad0554dc8e5f5e9
-A Simple Project to Scrape the Hetzner Server Auction
+Scrapes the Hetzner Servers and sends a Discord Webhook if the price has changed.
+
+## Usage
+
+```bash
+
+cp .env.example .env
+
+# Edit .env
+
+npm install
+```
+
+````bash
+npm run start
+```                                                                                                                                                                                                                                                                                                                                            |
+````
