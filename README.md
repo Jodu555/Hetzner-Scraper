@@ -13,7 +13,6 @@ cp .env.example .env
 npm install
 ```
 
-````bash
+```bash
 npm run start
-```                                                                                                                                                                                                                                                                                                                                            |
-````
+```
