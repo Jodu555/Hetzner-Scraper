@@ -91,7 +91,7 @@ function calcServerPrice(server: Server) {
 
 const pretify = (price: number | string) => parseFloat(price as string).toFixed(2) + '€';
 
-// main();
+main();
 async function main() {
     sendDCWebhook('Bot has been started');
     const interval = setInterval(async () => {
