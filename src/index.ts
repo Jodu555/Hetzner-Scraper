@@ -93,6 +93,7 @@ const pretify = (price: number | string) => parseFloat(price as string).toFixed(
 
 main();
 async function main() {
+    console.log('Bot has been started');
     sendDCWebhook('Bot has been started');
     const interval = setInterval(async () => {
         if (idCheckList.length === 0) return;
